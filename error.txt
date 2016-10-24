@@ -1,5 +1,3 @@
-dennis@nmwm.us
-monica@nmwm.us
 
 Yeah! Event Type: (PeerStatus-8)
         Address=46.235.11.200 Cause=URI_NOT_FOUND ChannelType=SIP Event=PeerStatus-8 Peer=SIP/8 PeerStatus=Rejected Port=5665 Privilege=system,all billing_name= customer_id=0 id=0 label= 
