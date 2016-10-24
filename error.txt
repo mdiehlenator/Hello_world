@@ -1,0 +1,8 @@
+dennis@nmwm.us
+monica@nmwm.us
+
+Yeah! Event Type: (PeerStatus-8)
+        Address=46.235.11.200 Cause=URI_NOT_FOUND ChannelType=SIP Event=PeerStatus-8 Peer=SIP/8 PeerStatus=Rejected Port=5665 Privilege=system,all billing_name= customer_id=0 id=0 label= 
+DBD::mysql::st execute failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 at /home/phones/modules/Events.pm line 41.
+DBD::mysql::st fetchrow_array failed: fetch() without execute() at /home/phones/modules/Events.pm line 42.
+select customer_id, user_id from event_subscriptions where event_name='PeerStatus'
